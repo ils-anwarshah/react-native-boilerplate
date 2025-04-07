@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "714859248413",
+    "firebase_url": "https://gcp-training-710-default-rtdb.firebaseio.com",
+    "project_id": "gcp-training-710",
+    "storage_bucket": "gcp-training-710.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714859248413:android:32d0675d18d9a599063ff4",
+        "android_client_info": {
+          "package_name": "com.template.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "714859248413-ceguk5tpr43pcgsjfv1j8mjj4qd0kvaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBV-c7UT_pnbmdaC6K_umuKf8zRYKPJr8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "714859248413-ceguk5tpr43pcgsjfv1j8mjj4qd0kvaa.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "714859248413-3ig075fqts8unee5cn4vhddp0us14ppa.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.template.ios"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
