@@ -1,25 +1,10 @@
+import {NavigationContainer} from '@react-navigation/native';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-
+import {StyleSheet, Text, View} from 'react-native';
+import MainStackNavigation from './navigation/Stack/MainStackNavigation';
 
 const App = () => {
-  return (
-    <View style={styles.container}>
-      <Text style={styles.heading}>React Native Boilerplate</Text>
-    </View>
-  );
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center'
-  },
-  heading: {
-    fontSize: 20,
-    color: 'red'
-  },
-});
+  return <MainStackNavigation />;
+};
 
 export default App;
