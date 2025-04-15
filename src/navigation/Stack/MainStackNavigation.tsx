@@ -7,6 +7,7 @@ import {
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import HomeScreen from '../../screens/Home';
 import {logEvent} from '../../utils';
+import LoginScreen from '../../screens/Auth/Login/LoginScreen';
 
 const navigationRef: any = createNavigationContainerRef<any>();
 const Stack = createNativeStackNavigator();
@@ -30,9 +31,10 @@ const MainStackNavigation = () => {
         routeNameRef.current = currentRouteName;
       }}>
       <Stack.Navigator
-        initialRouteName="Home"
-        // screenOptions={{ headerShown: false }}
+        initialRouteName="LoginScreen"
+        screenOptions={{ headerShown: false }}
       >
+        <Stack.Screen name="LoginScreen" component={LoginScreen} />
         <Stack.Screen name="Home" component={HomeScreen} />
       </Stack.Navigator>
     </NavigationContainer>
